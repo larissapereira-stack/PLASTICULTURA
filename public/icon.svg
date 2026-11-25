@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A072E" />
+      <stop offset="55%" stop-color="#750D48" />
+      <stop offset="100%" stop-color="#8E1057" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F29BC1" />
+      <stop offset="100%" stop-color="#D65F95" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <ellipse cx="256" cy="256" rx="146" ry="170" fill="url(#accent)" />
+  <ellipse cx="256" cy="284" rx="124" ry="136" fill="#6F0C45" />
+  <ellipse cx="256" cy="176" rx="108" ry="96" fill="url(#accent)" />
+  <path
+    d="M 294 148 A 48 48 0 1 0 294 206"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Gestão de Plástico Agrícola",
+  "description": "Sistema integrado para administração de consumo, estoque, instalação, retirada, reutilização, perdas e custos de plásticos agrícolas nas fazendas Labrunier I, Labrunier II, Brasil Uvas e Vale das Uvas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --color-wine-main: #8E1057;
+  --color-pink-secondary: #D65F95;
+  --color-brown-dark: #1E120D;
+  --color-bg-light: #FAF6F8;
+  --color-wine-dark: #5A0A37;
+  --color-wine-hover: #750D48;
+  --color-border: #F0E4EB;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #FAF6F8;
+    color: #1E120D;
+  }
+}
+
+/* Custom Scrollbars in El Ciruelo Brand Identity */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F8;
+}
+::-webkit-scrollbar-thumb {
+  background: #D65F95;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8E1057;
+}
+
+/* Print Optimization for Reports */
+@media print {
+  aside, nav, .no-print, button:not(.printable-content button) {
+    display: none !important;
+  }
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .printable-content {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
